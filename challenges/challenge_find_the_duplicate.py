@@ -27,6 +27,3 @@ def find_duplicate(nums):
             return nums[i]
     return False
     raise NotImplementedError
-
-
-print(find_duplicate(array))
