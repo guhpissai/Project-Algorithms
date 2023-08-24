@@ -12,12 +12,12 @@ def order_numbers(numbers):
 
     return order_numbers(left) + middle + order_numbers(right)
 
+
 array = [1, 1]
+
 
 def find_duplicate(nums):
     nums = order_numbers(nums)
-    if not nums or len(nums) <= 1:
-        return False
     for i in range(len(nums) - 1):
         if isinstance(nums[i], str):
             return False
@@ -27,5 +27,6 @@ def find_duplicate(nums):
             return nums[i]
     return False
     raise NotImplementedError
+
 
 print(find_duplicate(array))
