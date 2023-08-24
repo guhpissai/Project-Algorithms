@@ -1,4 +1,7 @@
 def order_string(string):
+    if not string:
+        return string
+
     if len(string) <= 1:
         return string
 
@@ -11,15 +14,13 @@ def order_string(string):
 
 
 def is_anagram(first_string, second_string):
-    if not first_string or not second_string:
-        return tuple([first_string, second_string, False])
+    first_ordered = order_string(first_string.lower())
+    second_ordered = order_string(second_string.lower())
 
-    first_ordered = order_string(first_string)
-    second_ordered = order_string(second_string)
+    if not first_ordered or not second_ordered:
+        return tuple([first_ordered, second_ordered, False])
 
     return tuple([
         first_ordered, second_ordered, first_ordered == second_ordered])
 
     raise NotImplementedError
-
-# push
