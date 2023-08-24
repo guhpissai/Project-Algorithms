@@ -1,4 +1,4 @@
-def order_string(string):
+def order_elements(string):
     if not string:
         return string
 
@@ -10,12 +10,12 @@ def order_string(string):
     middle = ''.join([char for char in string if char == pivot])
     right = ''.join([char for char in string if char > pivot])
 
-    return order_string(left) + middle + order_string(right)
+    return order_elements(left) + middle + order_elements(right)
 
 
 def is_anagram(first_string, second_string):
-    first_ordered = order_string(first_string.lower())
-    second_ordered = order_string(second_string.lower())
+    first_ordered = order_elements(first_string.lower())
+    second_ordered = order_elements(second_string.lower())
 
     if not first_ordered or not second_ordered:
         return tuple([first_ordered, second_ordered, False])
