@@ -22,5 +22,3 @@ def is_anagram(first_string, second_string):
 
     return tuple([
         first_ordered, second_ordered, first_ordered == second_ordered])
-
-    raise NotImplementedError

@@ -5,8 +5,6 @@ def study_schedule(permanence_period, target_time):
     for hour in permanence_period:
         if not (isinstance(hour[0], int) and isinstance(hour[1], int)):
             return None
-        time = list(range(hour[0], hour[1] + 1))
-        if target_time in time:
+        if hour[0] <= target_time <= hour[1]:
             estudantes += 1
     return estudantes
-    raise NotImplementedError
