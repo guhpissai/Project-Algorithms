@@ -1,23 +1,5 @@
-def order_numbers(numbers):
-    if not numbers:
-        return numbers
-
-    if len(numbers) <= 1:
-        return numbers
-
-    pivot = numbers[len(numbers) // 2]
-    left = list([num for num in numbers if num < pivot])
-    middle = list([num for num in numbers if num == pivot])
-    right = list([num for num in numbers if num > pivot])
-
-    return order_numbers(left) + middle + order_numbers(right)
-
-
-array = [1, 1]
-
-
 def find_duplicate(nums):
-    nums = order_numbers(nums)
+    nums.sort()
     for i in range(len(nums) - 1):
         if isinstance(nums[i], str):
             return False
@@ -25,5 +7,5 @@ def find_duplicate(nums):
             return False
         if nums[i] == nums[i + 1]:
             return nums[i]
+
     return False
-    raise NotImplementedError

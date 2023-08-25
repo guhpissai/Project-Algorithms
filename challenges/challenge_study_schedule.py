@@ -1,4 +1,3 @@
-# def is_valid_permanence_period(hour_1, hour_2)
 def study_schedule(permanence_period, target_time):
     if target_time is None:
         return None
