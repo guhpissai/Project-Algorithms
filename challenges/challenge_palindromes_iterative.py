@@ -1,7 +1,7 @@
 def is_palindrome_iterative(word):
     if not word:
         return False
-    
+
     n = len(word)
     bol = list()
 
@@ -12,5 +12,6 @@ def is_palindrome_iterative(word):
             bol.append(False)
 
     result = set(bol)
-    
-    return not False in result
+
+    return False not in result
+
