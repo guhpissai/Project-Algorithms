@@ -1,13 +1,34 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Project Algorithms
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Neste projeto implementei funções para resolver problemas e otimizar algoritmos
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+## Habilidades exercitadas:
+
+- **Lógica;**
+- **Capacidade de interpretação de problemas;**
+- **Capacidade de interpretação de um código legado;**
+- **Capacidade de otimizar a resolução de problemas;**
+- **Resolver problemas/Otimizar algoritmos sob pressão.**
+
+## Funções
+
+### study_schedule
+
+Busca pelo número de estudates estudando no mesmo horário.
+
+### is_palindrome_recursive
+
+Esta função determina se uma palavra é um palíndromo ou não utilizando recursividade. A função recebe uma string de parâmetro e o retorno é um booleano, True ou False.
+
+### is_anagram
+
+Compara duas strings, ordena elas e identifica se uma e anagrama da outra.
+
+### find_duplicate
+
+Encontra números repetidos
+
+### is_palindrome_iterative
+
+Esta função determina se uma palavra é um palíndromo ou não utilizando iteratividade. A função recebe uma string de parâmetro e o retorno é um booleano, True ou False.
+
