@@ -1,8 +1,6 @@
 # Project Algorithms
 
-Neste projeto implementei funções para resolver problemas e otimizar algoritmos
-
-## Habilidades exercitadas:
+Bem-vindo ao Projeto Algoritmos! Neste repositório, você encontrará uma coleção de funções que foram desenvolvidas para resolver problemas e otimizar algoritmos. Durante este projeto, foram exercitadas diversas habilidades essenciais, incluindo:
 
 - **Lógica;**
 - **Capacidade de interpretação de problemas;**
